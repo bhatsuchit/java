@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/java/testng.xml">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Dell/IdeaProjects/java/src/main/java/assignment/Draganddrop.java">
+        <classes>
+            <class name="assignment.Draganddrop">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Dell/IdeaProjects/java/src/main/java/assignment/droppdown.java">
+        <classes>
+            <class name="assignment.droppdown">
+                <methods>
+                    <include name="run"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Dell/IdeaProjects/java/src/main/java/assignment/checkbox.java">
+        <classes>
+            <class name="assignment.checkbox">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
