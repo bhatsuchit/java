@@ -9,6 +9,7 @@ public class checkbox extends Baseclass{
         driver.get("https://the-internet.herokuapp.com/checkboxes");
         driver.findElement(By.xpath("(//input[@type='checkbox'])[1]")).click();
         driver.findElement(By.xpath("(//input[@type='checkbox'])[2]")).click();
+        driver.close();
 
         Thread.sleep(5000);
     }
